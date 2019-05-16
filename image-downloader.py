@@ -24,7 +24,7 @@ with open("./fall11_urls.txt", encoding='utf8') as f:
 
         count = count + 1
         if count % 100000 == 0:
-            print('current count: ' + count)
+            print('current count: ' + str(count))
 
 now = time.localtime()
 print("End: %04d/%02d/%02d %02d:%02d:%02d" % (now.tm_year, now.tm_mon, now.tm_mday, now.tm_hour, now.tm_min, now.tm_sec))
