@@ -10,7 +10,7 @@ id_list.append(input_id)
 index = 0
 
 filename = "wnid_list.txt"
-txt = open(filename, "w")
+txt = open(filename, "w", encoding='utf8')
 txt.write(id_list[0] + "\n")
 txt.close()
 
@@ -33,4 +33,3 @@ while True:
     index = index + 1
     if index == len(id_list):
         break
-
